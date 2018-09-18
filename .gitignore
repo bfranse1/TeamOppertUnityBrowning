@@ -36,4 +36,5 @@ sysinfo.txt
 *.unitypackage
 
 # Include meta files
+*.meta
 !*.*.meta
