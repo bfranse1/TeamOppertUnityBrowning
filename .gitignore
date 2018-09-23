@@ -1,3 +1,4 @@
+### Unity ###
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -24,3 +25,25 @@ ExportedObj/
 *.pdb
 *.opendb
 
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.unitypackage
+
+# Include only the .meta files in specific folders
+*.meta
+!Assets/[Ee]ditor/**/*.meta
+!Assets/Editor Default Resources/**/*.meta
+!Assets/[Gg]izmos/**/*.meta
+!Assets/[Pp]refabs/**/*.meta
+!Assets/[Rr]esources/**/*.meta
+!Assets/[Ss]cenes/**/*.meta
+!Assets/[Ss]cripts/**/*.meta
+!Assets/Standard Assets/**/*.meta
+!Assets/StreamingAssets/**/*.meta
