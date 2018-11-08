@@ -9,8 +9,8 @@ public class browning : MonoBehaviour
     public GameObject camera2;
     public bool GuiOn;
     public string Text = "Press F to use";
+    public string TextExit = "Press X to exit";
     public Rect BoxSize = new Rect(0, 0, 200, 100);
-
 
     public GUISkin customSkin;
 
@@ -22,6 +22,10 @@ public class browning : MonoBehaviour
 
     void Update()
     {
+        if (camera2.activeSelf == true)
+        {
+            GuiOn = false;
+        }
         thereIsNoEscape();
     }
 
